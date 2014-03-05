@@ -1,0 +1,57 @@
+1  git config --global user.name "Fritz-Gerald MENTOR"
+    
+2  git config --global user.email "fritzgerald.mentor@esih.edu"
+    
+3  cd pythonfinal/
+    
+4  git init
+    
+5  git add .
+    
+6  git commit -m "Configuration de depart l'application"
+    
+7  pip freeze
+    
+8  pip freeze > requirements.txt
+    
+9  virtualenv venv --distribute
+   
+10  source venv/Scripts/activate
+   
+11  pip install django-toolbelt 
+   
+12  pip install dj-database-url
+   
+13  pip install gunicorn
+   
+14  pip install dj-static
+   
+15  pip install static
+   
+16  django-admin.py startproject pythonfinal .
+   
+17  pwd
+   
+18  pip freeze > requirements.txt
+   
+19  cat requirements.txt 
+   
+20  git init
+   
+21  git add .
+   
+22  git commit -m "my django app"
+   
+23  heroku create
+   
+24  git push heroku master
+   
+25  heroku ps:scale web=1
+   
+26  heroku open
+   
+27  history
+   
+28  history > suite_de_commande pour configurer heroku.txt
+   
+29  history > suite_de_commande_pour_configurer_heroku.txt

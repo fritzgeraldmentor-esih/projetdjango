@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		{% load staticfiles %}
+		<link  href="{% static 'css/design.css' %}" rel="stylesheet" type="text/css"/>
+		<title>Le Nom de ma page</title>
+	</head>
+	
+	<body>
+		<!--<div id="page">-->
+			<header>
+
+				
+				<!--<div id="logo">
+					<img src="{% static 'images/logo-esih.png' %}" alt="logo du backend">-->
+					<h1 id="txt-logo">ESIH</h1>
+					<h2 id="sub-txt-logo">Chercher - Innover - Entreprendre</h2>
+				<!--</div>
+				
+				<div id="banner">
+					<img src="" alt="background image banner">
+				</div>-->
+			</header>
+        {% block pouchyx %}
+        	<nav id="navigation_principale" >
+				<ul>
+					<li><a href="../cours/">COURS</a></li>
+					<li><a href="../professeur/">PROFESSEURS</a></li>
+					<li><a href="../programme/">PROGRAMMES</a></li>
+				</ul>
+
+			</nav>
+        {% endblock %}
+			{% block article %}
+
+			{% endblock %}
+
+			<footer id="bas-de-page" >
+				<p>Copyright 2014 - www.esih.edu - All Right Reserved</p>
+			</footer>
+		<!--</div>-->
+	</body>
+</html>
+
+        <!--
+
+                <section id="section-principale" >
+				<nav id="sous-menu" >
+					<ul>
+                        <li>Lister</li>
+						<li>Inserer</li>
+					</ul>
+				</nav>
+
+				<article>
+
+
+
+				</article>
+			</section>
+
+        -->

@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+
+
+        {% block article %}
+                <section id="section-principale" >
+				<nav id="sous-menu" >
+					<ul>
+						<li>Lister</li>
+						<li>Inserer</li>
+					</ul>
+				</nav>
+
+                    <article>
+
+					<form  method="post" action="../saveprofesseur/">
+						<fieldset style="width:550px"  class="insertion-cours">
+						<legend class="insertion-cours">Insertion de Cours</legend>
+						<table class="insertion-cours">
+							<tr>
+							<td><label>Nom</label></td><label></label><td>Prenom</td><td><label>Telephone</label></td>
+							</tr>
+							<tr>
+							<td><input type="text" name="NomProfesseur" size="30" maxlength="50"></td><td><input type="text" name="PrenomProfesseur" size=30" maxlength="50"></td><td><input type="number" name="Telephone" size="12" maxlength="12"></td>
+                            </tr>
+
+                            <tr>
+							<td><label>E-mail</label></td>
+							</tr>
+                            <tr>
+							<td colspan="3"><input type="email" name="Email" size="100" maxlength="100"></td>
+							</tr>
+							
+
+
+                            <tr>
+							<td><input type="submit" value="Upload CV" name="Upload CV" ></td>
+							</tr>
+                            <tr>
+							<td colspan="3"><input type="text" name="CV" size="100" maxlength="100"></td>
+							</tr>
+
+                            <tr>
+							<td></td><td><input type="submit" value="Enregistrer" name="Enregistrer"></td><td></td>
+							</tr>
+
+						</table>
+						</fieldset></br>
+					</form>
+
+            </article>
+			</section>
+{% endblock %}
