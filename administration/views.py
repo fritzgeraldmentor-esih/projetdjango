@@ -2,7 +2,7 @@ from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseRedirect
 from django.template.loader import get_template
 from django.template import Context
-from administration.models import *
+from administration.models import Cours,Professeurs,Programmes
 from django.shortcuts import render, redirect
 
 # Create your views here.
@@ -19,8 +19,8 @@ def homex(request):
     t = get_template('home.html')
     html = t.render(Context({}))
     return HttpResponse(html)
-def home(request):
-    return render(request,'home.html')
+#def home(request):
+
 def Acceuil(request):
     t = get_template('Acceuil.html')
     html = t.render(Context({}))
@@ -64,8 +64,8 @@ def FormulaireProgramme(request):
 #      *** Les Insertions ***
 # ********************************
 def InsertionCours(request):
-    try:
-        NouveauCours = Cours(
+        try:
+            NouveauCours = Cours(
             NomCours=request.POST['NomCours'] ,
             CreditsECTS=request.POST['CreditsECTS'] ,
             Langues=request.POST['Langues'] ,
@@ -75,16 +75,17 @@ def InsertionCours(request):
             PublicCible=request.POST['PublicCible'],
             Objectif=request.POST['Objectif'] ,
             DescriptifCours=request.POST['DescriptifCours']
-        )
+            )
 
-        NouveauCours.save()
-        list = Cours.objects.all()
+            NouveauCours.save()
+            list = Cours.objects.all()
 
-        return render(request, 'Cours\ListeCours.html',locals())
+            return render(request,'Cours\ListeCours.html',locals())
+        except:
+            return render(request,'Cours\ListeCours.html',locals())
 
 
-    except KeyError:
-        pass
+
 
 def InsertionProfesseur(request):
     try:
@@ -99,7 +100,6 @@ def InsertionProfesseur(request):
         NouveauProfesseur.save()
         listProfesseur = Professeurs.objects.all()
 
-        ##return render(request, '{% url "administration.views.ListerProfesseur" %}',locals())
         return render(request, 'Professeur/ListeProfesseur.html',locals())
 
 

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+
+
+        {% block article %}
+					<form  method="post" action="../saveprogramme/">
+						<fieldset style="width:550px"  class="insertion-cours">
+						<legend class="insertion-cours">Insertion de Cours</legend>
+						<table class="insertion-cours">
+							<tr>
+							<td><label class="label-programme">Nom du Programme : </label></td><td><input type="text" name="NomProgramme" size="30" maxlength="100"></td>
+							</tr>
+
+                            <tr>
+							<td><label class="label-programme">Domaine : </label></td><td><input type="text" name="Domaine" size="30" maxlength="30"></td>
+							</tr>
+
+                            <tr>
+							<td><label class="label-programme">Mention : </label></td><td><input type="text" name="Mention" size="30" maxlength="30"></td>
+							</tr>
+
+                            <tr>
+							<td><label class="label-programme">Specialite : </label></td><td><input type="text" name="Specialite" size="30" maxlength="30"></td>
+							</tr>
+
+                            <tr>
+							<td colspan="2" class="bouton-au-centre"><input type="submit" value="Enregistrer" name="Enregistrer"></td>
+							</tr>
+
+						</table>
+						</fieldset></br>
+					</form>
+        {% endblock %}

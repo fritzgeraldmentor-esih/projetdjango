@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block article %}
+
+    <section id="section-principale" >
+				<nav id="sous-menu" >
+					<ul>
+                        <li>Lister</li>
+						<li>Inserer</li>
+					</ul>
+				</nav>
+
+				<article>
+                        <table class="Affichage-liste">
+                            <tr>
+                                <th>Lieu</th><th class="court">Cours</th><th class="court">Grade</th><th class="court">Semestre</th><th colspan="2">Action</th>
+                            </tr>
+                            {% for elem in lcours %}
+
+                            <tr>
+                                <td>{{elem.NomCours}}</td><td>{{elem.Etablissement}}</td><td>{{elem.Grade}}</td><td>{{elem.Semestre}}</td><td><a href="../mcours/{{cours.id}}/">Mod</a></td><td><a href="../scours/{{elem.id}}/">Suppr</a></td>
+                            </tr>
+                            {% endfor %}
+
+
+                            <tr>
+                                <td>{{cours.NomCours}}</td><td>{{cours.Etablissement}}</td><td>{{cours.Grade}}</td><td>{{cours.Semestre}}</td><td><a href="../mcours/{{cours.id}}/">Mod</a></td>
+                            </tr>
+
+                        </table>
+                </article>
+	</section>
+{% endblock %}
+
