@@ -39,7 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'esih_admin',
-    'django_bfm',
+    #'django_bfm',
 )
 
 MIDDLEWARE_CLASSES = (
