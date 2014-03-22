@@ -2,17 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564d6d22-1101-470e-9978-7ebb265e0739" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/changelists.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/forms.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/ie.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/css/widgets.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/changelist-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/changelist-bg_rtl.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/chooser-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/chooser_stacked-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/default-bg-reverse.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/default-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/deleted-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_off.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/gis/move_vertex_on.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-no.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-unknown.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon-yes.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon_addlink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon_alert.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon_calendar.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon_changelink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon_clock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon_deletelink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon_error.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon_searchbox.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/icon_success.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/inline-delete-8bit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/inline-delete.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/inline-restore-8bit.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/inline-restore.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/inline-splitter-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/nav-bg-grabber.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/nav-bg-reverse.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/nav-bg-selected.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/nav-bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/selector-icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/selector-search.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/sorting-icons.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/tool-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/tool-left_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/tool-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/tool-right_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-add_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/img/tooltag-arrowright_over.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/LICENSE-JQUERY.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/SelectBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/SelectFilter2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/actions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/actions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/admin/DateTimeShortcuts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/admin/RelatedObjectLookups.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/collapse.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/inlines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/inlines.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/jquery.init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/prepopulate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/timeparse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/staticfiles/admin/js/urlify.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\administration\__init__.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\administration\admin.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\administration\models.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\administration\tests.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\administration\views.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\staticfiles\django_bfm\active.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\staticfiles\django_bfm\admin.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\staticfiles\django_bfm\admin.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\staticfiles\django_bfm\application.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\staticfiles\django_bfm\application.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\staticfiles\django_bfm\iconic_stroke.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\staticfiles\django_bfm\iconic_stroke.otf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\staticfiles\django_bfm\iconic_stroke.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\staticfiles\django_bfm\iconic_stroke.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\staticfiles\django_bfm\upload.jquery.js" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\__init__.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\admin.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\models.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\tests.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\views.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esih_admin/models.py" afterPath="$PROJECT_DIR$/esih_admin/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonfinal/settings.py" afterPath="$PROJECT_DIR$/pythonfinal/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonfinal/urls.py" afterPath="$PROJECT_DIR$/pythonfinal/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pythonfinal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,10 +120,8 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="31" selection-start="671" selection-end="671" vertical-scroll-proportion="-11.56" vertical-offset="0" max-vertical-offset="544">
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state line="17" column="31" selection-start="671" selection-end="671" vertical-scroll-proportion="-10.88" vertical-offset="0" max-vertical-offset="527">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,25 +129,27 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/esih_admin/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="28" selection-start="3077" selection-end="3077" vertical-scroll-proportion="-12.84" vertical-offset="563" max-vertical-offset="1241">
-              <folding />
+            <state line="65" column="20" selection-start="3604" selection-end="3604" vertical-scroll-proportion="-14.96" vertical-offset="731" max-vertical-offset="1258">
+              <folding>
+                <marker date="1395510451233" expanded="true" signature="2530:2713" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="-0.68" vertical-offset="408" max-vertical-offset="2210">
+            <state line="97" column="0" selection-start="2426" selection-end="2426" vertical-scroll-proportion="0.55925924" vertical-offset="1347" max-vertical-offset="2482">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonfinal/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.5371747" vertical-offset="0" max-vertical-offset="538">
+            <state line="17" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="-11.56" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -76,7 +158,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonfinal/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="5" selection-start="305" selection-end="305" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="272">
+            <state line="11" column="12" selection-start="317" selection-end="317" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -111,8 +193,8 @@
         <option value="$PROJECT_DIR$/pythonfinal/templates/win/ListeCours.html" />
         <option value="$PROJECT_DIR$/administration/models.py" />
         <option value="$PROJECT_DIR$/win/admin.py" />
-        <option value="$PROJECT_DIR$/pythonfinal/urls.py" />
         <option value="$PROJECT_DIR$/esih_admin/admin.py" />
+        <option value="$PROJECT_DIR$/pythonfinal/urls.py" />
         <option value="$PROJECT_DIR$/esih_admin/models.py" />
         <option value="$PROJECT_DIR$/pythonfinal/wsgi.py" />
         <option value="$PROJECT_DIR$/pythonfinal/settings.py" />
@@ -151,6 +233,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -166,6 +249,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pythonfinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonfinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonfinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="venv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonfinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonfinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="staticfiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grappelli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonfinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonfinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="staticfiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grappelli" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,7 +372,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -451,9 +587,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47826087" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -470,13 +606,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/esih_admin/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="8" selection-start="2966" selection-end="2966" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1190">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="1" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="2193">
@@ -494,16 +623,16 @@
     <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="49" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="544">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/esih_admin/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="8" selection-start="2966" selection-end="2966" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1190">
-          <folding />
+          <folding>
+            <marker date="1395510451233" expanded="true" signature="2530:2713" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -524,18 +653,14 @@
     <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -549,39 +674,46 @@
         <state line="3" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.09479554" vertical-offset="0" max-vertical-offset="538" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfinal/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="305" selection-end="305" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="31" selection-start="671" selection-end="671" vertical-scroll-proportion="-11.56" vertical-offset="0" max-vertical-offset="544">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state line="17" column="31" selection-start="671" selection-end="671" vertical-scroll-proportion="-10.88" vertical-offset="0" max-vertical-offset="527">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/esih_admin/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="28" selection-start="3077" selection-end="3077" vertical-scroll-proportion="-12.84" vertical-offset="563" max-vertical-offset="1241">
+        <state line="65" column="20" selection-start="3604" selection-end="3604" vertical-scroll-proportion="-14.96" vertical-offset="731" max-vertical-offset="1258">
+          <folding>
+            <marker date="1395510451233" expanded="true" signature="2530:2713" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/staticfiles/grappelli/stylesheets/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="0" selection-end="169749" vertical-scroll-proportion="0.030797102" vertical-offset="0" max-vertical-offset="552">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
+    <entry file="file://$PROJECT_DIR$/pythonfinal/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="-0.68" vertical-offset="408" max-vertical-offset="2210">
+        <state line="11" column="12" selection-start="317" selection-end="317" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="340">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonfinal/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.5371747" vertical-offset="0" max-vertical-offset="538">
+        <state line="17" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="-11.56" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="0" selection-start="2426" selection-end="2426" vertical-scroll-proportion="0.55925924" vertical-offset="1347" max-vertical-offset="2482">
           <folding />
         </state>
       </provider>

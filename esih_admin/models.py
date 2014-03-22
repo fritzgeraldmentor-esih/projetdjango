@@ -38,7 +38,8 @@ class Professeur(models.Model):
     CV = models.CharField(max_length=100)
 
     def __unicode__(self):
-        return u'%s|*:*|%s|*:*|%s|*:*|%s'%(self.NomProfesseur, self.PrenomProfesseur, self.Telephone, self.Email)
+        return u'%s %s'%(self.NomProfesseur, self.PrenomProfesseur)
+        #return u'%s|*:*|%s|*:*|%s|*:*|%s'%(self.NomProfesseur, self.PrenomProfesseur, self.Telephone, self.Email)
 
 class Appartenir(models.Model):
    IdCours = models.ForeignKey(Cour,verbose_name='Cours')
@@ -46,7 +47,7 @@ class Appartenir(models.Model):
    TypeCours = models.CharField(choices=[('OPT','Optionnel'),('OBL','Obligatoire')],max_length=20,verbose_name='Type du Cours')
 
    def __unicode__(self):
-        return u'%s|*:*|%s|*:*|%s'%(self.IdCours, self.IdProgramme, self.TypeCours)
+        return u'%s | %s | %s'%(self.IdCours, self.IdProgramme, self.TypeCours)
 
 
 
@@ -62,6 +63,6 @@ class Dispenser(models.Model):
         # ChampsProfesseur = self.IdProfesseur.split("|*:*|")
         # self.IdentiteProfesseur = ChampsProfesseur[0]+" "+ChampsProfesseur[1]
 
-        return u'%s|*:*|%s'%(self.IdCours, self.IdProfesseur)
+        return u'%s | %s'%(self.IdCours, self.IdProfesseur)
 
 
