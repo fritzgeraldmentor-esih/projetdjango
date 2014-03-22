@@ -7,103 +7,12 @@
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\administration\models.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\administration\tests.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\administration\views.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Acceuil.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Cours\Cours.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Cours\Formulaire-Insertion-Cours.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Cours\ListeCours.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Courscopy.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Professeur\Formulaire-Insertion-Professeur.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Professeur\ListeProfesseur.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Professeur\Professeur.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Programme\Formulaire-Insertion-Programme.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Programme\ListeProgramme.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Programme\Programme.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\base.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\basefront.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\home.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\css\coda-slider.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\css\design.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\baner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\banner.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\dash.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\facebook.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\gallery\image_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\gallery\image_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\gallery\image_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\gallery\image_04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\gallery\image_05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\gallery\image_06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\gallery\logo-esih.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\linkedin.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\logoesih.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\myspace.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\onebit_08.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\onebit_11.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\onebit_12.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\onebit_17.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\onebit_21.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\scroll_left.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\scroll_right.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\technorati.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_aboutus.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_aboutus_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_body.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_contact.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_contact_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_content.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_header.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_home.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_home_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_image_01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_image_02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_image_03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_list.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_logo.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_logo_PNG_source.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_menu_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_portfolio.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_portfolio_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_services.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_services_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_social_box.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\twitter.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\js\coda-slider.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\js\jquery-1.2.6.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\js\jquery.easing.1.3.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\js\jquery.localscroll-1.2.5.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\js\jquery.scrollTo-1.3.3.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\js\jquery.serialScroll-1.2.1.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\templatemo_style.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\structure de base_backend.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Acceuil.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Cours.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Courscopy.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Formulaire-Insertion-Cours.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Formulaire-Insertion-Professeur.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Formulaire-Insertion-Programme.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\ListeCours.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\ListeProfesseur.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\ListeProgramme.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Professeur.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Programme.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\base.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\basefront.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\home.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\mcours.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\structure de base_backend.html" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\__init__.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\admin.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\models.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\tests.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\views.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esih_admin/admin.py" afterPath="$PROJECT_DIR$/esih_admin/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esih_admin/models.py" afterPath="$PROJECT_DIR$/esih_admin/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonfinal/settings.py" afterPath="$PROJECT_DIR$/pythonfinal/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonfinal/urls.py" afterPath="$PROJECT_DIR$/pythonfinal/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pythonfinal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -146,19 +55,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="0" selection-start="3132" selection-end="3132" vertical-scroll-proportion="-20.16" vertical-offset="1587" max-vertical-offset="2193">
+            <state line="28" column="11" selection-start="792" selection-end="792" vertical-scroll-proportion="0.44237918" vertical-offset="238" max-vertical-offset="2210">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonfinal/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.5371747" vertical-offset="0" max-vertical-offset="538">
+            <state line="17" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="-11.56" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
@@ -205,8 +114,8 @@
         <option value="$PROJECT_DIR$/pythonfinal/urls.py" />
         <option value="$PROJECT_DIR$/esih_admin/admin.py" />
         <option value="$PROJECT_DIR$/esih_admin/models.py" />
-        <option value="$PROJECT_DIR$/pythonfinal/settings.py" />
         <option value="$PROJECT_DIR$/pythonfinal/wsgi.py" />
+        <option value="$PROJECT_DIR$/pythonfinal/settings.py" />
       </list>
     </option>
   </component>
@@ -649,16 +558,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
+    <entry file="file://$PROJECT_DIR$/pythonfinal/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="0" selection-start="3132" selection-end="3132" vertical-scroll-proportion="-20.16" vertical-offset="1587" max-vertical-offset="2193">
+        <state line="17" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="-11.56" vertical-offset="0" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfinal/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.5371747" vertical-offset="0" max-vertical-offset="538">
+        <state line="28" column="11" selection-start="792" selection-end="792" vertical-scroll-proportion="0.44237918" vertical-offset="238" max-vertical-offset="2210">
           <folding />
         </state>
       </provider>
