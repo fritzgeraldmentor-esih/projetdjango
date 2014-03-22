@@ -2,12 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="564d6d22-1101-470e-9978-7ebb265e0739" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pythonfinal/templates/win/Formulaire-Insertion-Cours.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonfinal/templates/base.html" afterPath="$PROJECT_DIR$/pythonfinal/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonfinal/templates/static/css/design.css" afterPath="$PROJECT_DIR$/pythonfinal/templates/static/css/design.css" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\administration\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\administration\admin.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\administration\models.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\administration\tests.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\administration\views.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Acceuil.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Cours\Cours.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Cours\Formulaire-Insertion-Cours.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Cours\ListeCours.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Courscopy.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Professeur\Formulaire-Insertion-Professeur.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Professeur\ListeProfesseur.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Professeur\Professeur.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Programme\Formulaire-Insertion-Programme.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Programme\ListeProgramme.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\Programme\Programme.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\base.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\basefront.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\home.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\css\coda-slider.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\css\design.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\baner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\banner.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\banner.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\dash.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\gallery\image_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\gallery\image_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\gallery\image_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\gallery\image_04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\gallery\image_05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\gallery\image_06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\gallery\logo-esih.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\logoesih.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\myspace.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\onebit_08.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\onebit_11.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\onebit_12.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\onebit_17.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\onebit_21.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\scroll_left.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\scroll_right.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\technorati.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_aboutus.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_aboutus_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_body.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_contact.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_contact_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_content.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_home.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_home_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_image_01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_image_02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_image_03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_list.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_logo_PNG_source.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_menu_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_portfolio.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_portfolio_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_services.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_services_hover.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\templatemo_social_box.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\images\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\js\coda-slider.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\js\jquery-1.2.6.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\js\jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\js\jquery.localscroll-1.2.5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\js\jquery.scrollTo-1.3.3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\js\jquery.serialScroll-1.2.1.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\static\templatemo_style.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\structure de base_backend.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Acceuil.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Cours.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Courscopy.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Formulaire-Insertion-Cours.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Formulaire-Insertion-Professeur.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Formulaire-Insertion-Programme.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\ListeCours.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\ListeProfesseur.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\ListeProgramme.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Professeur.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\Programme.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\base.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\basefront.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\home.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\mcours.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\pythonfinal\templates\win\structure de base_backend.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\admin.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\models.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\tests.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\views.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esih_admin/admin.py" afterPath="$PROJECT_DIR$/esih_admin/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esih_admin/models.py" afterPath="$PROJECT_DIR$/esih_admin/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonfinal/settings.py" afterPath="$PROJECT_DIR$/pythonfinal/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonfinal/urls.py" afterPath="$PROJECT_DIR$/pythonfinal/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/administration/views.py" afterPath="$PROJECT_DIR$/administration/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="pythonfinal.iws" />
@@ -31,11 +126,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/win/models.py">
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="48" selection-start="1217" selection-end="1217" vertical-scroll-proportion="-10.48" vertical-offset="316" max-vertical-offset="901">
-              <folding />
+            <state line="17" column="31" selection-start="671" selection-end="671" vertical-scroll-proportion="-11.56" vertical-offset="0" max-vertical-offset="544">
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,34 +140,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/esih_admin/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="135" selection-start="465" selection-end="465" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="969">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/administration/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="153">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Professeur.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pythonfinal/templates/win/Professeur.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="442">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pythonfinal/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1474" selection-end="1474" vertical-scroll-proportion="-19.32" vertical-offset="129" max-vertical-offset="952">
+            <state line="52" column="28" selection-start="3077" selection-end="3077" vertical-scroll-proportion="-12.84" vertical-offset="563" max-vertical-offset="1241">
               <folding />
             </state>
           </provider>
@@ -79,7 +149,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="0" selection-start="2275" selection-end="2275" vertical-scroll-proportion="-0.96" vertical-offset="1523" max-vertical-offset="2040">
+            <state line="123" column="0" selection-start="3132" selection-end="3132" vertical-scroll-proportion="-20.16" vertical-offset="1587" max-vertical-offset="2193">
               <folding />
             </state>
           </provider>
@@ -88,34 +158,16 @@
       <file leaf-file-name="wsgi.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pythonfinal/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.5589942" vertical-offset="0" max-vertical-offset="517">
+            <state line="17" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.5371747" vertical-offset="0" max-vertical-offset="538">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListeCours.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pythonfinal/templates/win/ListeCours.html">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pythonfinal/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="38" selection-start="261" selection-end="261" vertical-scroll-proportion="-3.4615386" vertical-offset="131" max-vertical-offset="680">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="design.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pythonfinal/templates/static/css/design.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="182" column="1" selection-start="2748" selection-end="2748" vertical-scroll-proportion="0.0" vertical-offset="2774" max-vertical-offset="3604">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/win/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="0" selection-start="2102" selection-end="2102" vertical-scroll-proportion="-38.88" vertical-offset="252" max-vertical-offset="1326">
+            <state line="11" column="5" selection-start="305" selection-end="305" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="272">
               <folding />
             </state>
           </provider>
@@ -139,19 +191,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pythonfinal/templates/basefront.html" />
-        <option value="$PROJECT_DIR$/pythonfinal/templates/Courscopy.html" />
-        <option value="$PROJECT_DIR$/pythonfinal/templates/Cours/ListeCours.html" />
         <option value="$PROJECT_DIR$/administration/views.py" />
         <option value="$PROJECT_DIR$/pythonfinal/templates/Cours/Formulaire-Insertion-Cours.html" />
         <option value="$PROJECT_DIR$/pythonfinal/templates/base.html" />
         <option value="$PROJECT_DIR$/pythonfinal/templates/win/Formulaire-Insertion-Cours.html" />
-        <option value="$PROJECT_DIR$/pythonfinal/urls.py" />
         <option value="$PROJECT_DIR$/win/models.py" />
         <option value="$PROJECT_DIR$/pythonfinal/templates/win/Formulaire-Insertion-Professeur.html" />
         <option value="$PROJECT_DIR$/win/views.py" />
         <option value="$PROJECT_DIR$/pythonfinal/templates/static/css/design.css" />
         <option value="$PROJECT_DIR$/pythonfinal/templates/win/ListeCours.html" />
+        <option value="$PROJECT_DIR$/administration/models.py" />
+        <option value="$PROJECT_DIR$/win/admin.py" />
+        <option value="$PROJECT_DIR$/pythonfinal/urls.py" />
+        <option value="$PROJECT_DIR$/esih_admin/admin.py" />
         <option value="$PROJECT_DIR$/esih_admin/models.py" />
         <option value="$PROJECT_DIR$/pythonfinal/settings.py" />
         <option value="$PROJECT_DIR$/pythonfinal/wsgi.py" />
@@ -219,6 +271,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="pythonfinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonfinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonfinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonfinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Mes_Fichiers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonfinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pythonfinal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="esih_admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,10 +496,10 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32088286" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2293373" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14743112" sideWeight="0.67911714" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -437,9 +525,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2226359" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47826087" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -459,108 +547,118 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/administration/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="40" selection-start="2504" selection-end="2504" vertical-scroll-proportion="-52.36" vertical-offset="0" max-vertical-offset="2992" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfinal/templates/Acceuil.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfinal/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="37" selection-start="867" selection-end="867" vertical-scroll-proportion="0.45640075" vertical-offset="332" max-vertical-offset="1275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfinal/templates/win/Formulaire-Insertion-Professeur.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="53" selection-start="959" selection-end="959" vertical-scroll-proportion="-6.269231" vertical-offset="245" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfinal/templates/win/mcours.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfinal/templates/win/Formulaire-Insertion-Cours.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="135" selection-end="135" vertical-scroll-proportion="3.8461537" vertical-offset="219" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfinal/templates/win/Professeur.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfinal/templates/static/css/design.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="1" selection-start="2748" selection-end="2748" vertical-scroll-proportion="0.0" vertical-offset="2774" max-vertical-offset="3604">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/win/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="0" selection-start="2102" selection-end="2102" vertical-scroll-proportion="-38.88" vertical-offset="252" max-vertical-offset="1326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfinal/templates/win/ListeCours.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="261" selection-end="261" vertical-scroll-proportion="-3.4615386" vertical-offset="131" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/administration/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/win/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="48" selection-start="1217" selection-end="1217" vertical-scroll-proportion="-10.48" vertical-offset="316" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/esih_admin/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="135" selection-start="465" selection-end="465" vertical-scroll-proportion="-4.76" vertical-offset="0" max-vertical-offset="969">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfinal/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1474" selection-end="1474" vertical-scroll-proportion="-19.32" vertical-offset="129" max-vertical-offset="952">
+        <state line="61" column="8" selection-start="2966" selection-end="2966" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="0" selection-start="2275" selection-end="2275" vertical-scroll-proportion="-0.96" vertical-offset="1523" max-vertical-offset="2040">
+        <state line="52" column="1" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="2193">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonfinal/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="49" selection-start="689" selection-end="689" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="544">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esih_admin/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="8" selection-start="2966" selection-end="2966" vertical-scroll-proportion="0.0" vertical-offset="1037" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="1" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" vertical-offset="867" max-vertical-offset="2193">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonfinal/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="305" selection-end="305" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esih_admin/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="563" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esih_admin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.09479554" vertical-offset="0" max-vertical-offset="538" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonfinal/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="305" selection-end="305" vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="31" selection-start="671" selection-end="671" vertical-scroll-proportion="-11.56" vertical-offset="0" max-vertical-offset="544">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esih_admin/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="28" selection-start="3077" selection-end="3077" vertical-scroll-proportion="-12.84" vertical-offset="563" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="0" selection-start="3132" selection-end="3132" vertical-scroll-proportion="-20.16" vertical-offset="1587" max-vertical-offset="2193">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonfinal/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.5589942" vertical-offset="0" max-vertical-offset="517">
+        <state line="17" column="0" selection-start="476" selection-end="476" vertical-scroll-proportion="0.5371747" vertical-offset="0" max-vertical-offset="538">
           <folding />
         </state>
       </provider>

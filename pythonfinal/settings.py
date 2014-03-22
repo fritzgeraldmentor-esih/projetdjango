@@ -31,13 +31,14 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = (
     'django.contrib.admin',
+    'django.contrib.admindocs',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'administration',
-	'win'
+    'esih_admin',
+    'django_bfm',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -69,6 +70,7 @@ DATABASES = {
         'PORT': '5432',
         }
 }
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
@@ -106,10 +108,16 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static'),
-	"pythonfinal/templates/static"
+	"pythonfinal/static"
 )
 
 
 TEMPLATE_DIRS = (
     os.path.join(os.path.dirname(__file__), 'templates').replace('\\','/'),
 )
+
+###########################################################################
+#############       New Lines
+###########################################################################
+
+MEDIA_ROOT = "pythonfinal\pythonfinal\static\Mes_Fichiers"

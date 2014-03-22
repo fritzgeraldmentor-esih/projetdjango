@@ -1,51 +1,67 @@
+# -*- coding: utf-8 -*-
 from django.db import models
 
 # Create your models here.
 
+class Cour(models.Model):
+    NomCours = models.CharField(max_length=100,verbose_name='Nom du Cours')
+    CreditsECTS = models.CharField(max_length=3,verbose_name='Quantité Credits')
+    Langues = models.CharField(choices=[('fr','Francais'),('an','Anglais'),('es','Espagnol'),('cr','Creole')],max_length=20)
+    LieuEnseignement = models.CharField(max_length=100,verbose_name="Lieu d'enseignement")
+    Grade = models.CharField(choices=[('Propedeutique','Propedeutique'),('L1','Premiere Annee Licence'),('L2','Deuxieme Annee Licence'),('L3','Troisieme Annee Licence')],max_length=50)
+    Semestre = models.CharField(choices=[('S1','Premier Semestre'),('S2','Deuxieme Semestre')],max_length=30)
+    PublicCible = models.CharField(max_length=50,verbose_name='Public Cible')
+    Objectif = models.CharField(max_length=250,verbose_name='Objecctif du Cours')
+    DescriptifCours = models.CharField(max_length=100,verbose_name='Description du Cours')
+
+    def __unicode__(self):
+        return u'%s (%s credits)'%(self.NomCours, self.CreditsECTS)
+        #return u'%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s'%( self.Semestre,self.Grade,self.NomCours, self.CreditsECTS, self.Langues, self.LieuEnseignement,  self.PublicCible, self.Objectif, self.DescriptifCours)
+
+
 class Programme(models.Model):
-    Domaine = models.CharField(choices=[('E&G','Economie et Gestion'),('S&T','Sciences et Technologies')](max_length=50))
-    Mention = models.CharField(choices=[('E&G','Economie et Gestion'),('SI','Sciences Informatiques')](max_length=50))
-    Specialite = models.CharField(choices=[('TEL','Telecommunications'),('BDD','Base de Donnees'),('MONE','Management des Organisations de la Net Economie'),('SdE','Sciences de Entreprise'),('SC','Sciences Comptables')](max_length=20))
-    TypeCours = models.CharField(choices=[('OBL','Obligatoire'),('OPT','Optionnel')](max_length=10))
-    Langue = models.CharField(choices=[('A','Anglais'),('F','Francais'),('C','Creole')](max_length=10))
+    NomProgramme = models.CharField(max_length=100,verbose_name='Nom du Programme')
+    Domaine = models.CharField(choices=[('E&G','Economie et Gestion'),('S&T','Sciences et Technologiques')],max_length=30)
+    Mention = models.CharField(choices=[('E&G','Economie et Gestion'),('S&I','Sciences Informatiques')],max_length=30)
+    Specialite = models.CharField(choices=[('TEL','Telecommunication'),('BDD','Base de Donnee'),('MONE','Management des Organisation de la Net Economie'),('SdE',"Sciences de l'Entreprise"),('SC','Sciences Comptables')],max_length=30,verbose_name='Specialité')
 
     def __unicode__(self):
-        return self.Domaine
+        return u'%s'%(self.NomProgramme)
+        #return u'%s|*:*|%s|*:*|%s|*:*|%s'%(self.NomProgramme, self.Domaine, self.Mention, self.Specialite)
 
-class Cours(models.Model):
-    Etablissement = models.CharField(max_length=50)
-    Grade = models.CharField(max_length=50)
-    Semestre = models.CharField(max_length=2)
-    NomCours = models.CharField(max_length=50)
-
-    def __unicode__(self):
-        return
 
 class Professeur(models.Model):
-    Nom = models.CharField(max_length=50)
-    Prenom = models.CharField(max_length=50)
-    Niveau = models.CharField(max_length=50)
-    Email = models.EmailField(max_length=50)
-    Tel = models.CharField(max_length=50)
-    Cv = models.TextField(max_length=50)
-    PassWord=models.TextField(max_length=50)
+    NomProfesseur = models.CharField(max_length=50,verbose_name='Nom du Professeur')
+    PrenomProfesseur = models.CharField(max_length=50,verbose_name='Prenom du Professeur')
+    Telephone = models.CharField(max_length=12)
+    Email = models.EmailField(verbose_name='e-mail')
+    CV = models.CharField(max_length=100)
 
-class DescriptionCours(models.Model):
-    CodeCours = models.CharField(max_length=50)
-    TitreCours = models.CharField(max_length=50)
-    CreditEcts = models.CharField(max_length=2)
-    LieuEnseignement = models.CharField(max_length=20)
-    PublicCible = models.CharField(max_length=20)
-    PreRequis = models.CharField(max_length=400)
-    Objectif = models.CharField(max_length=400)
-    Description = models.CharField(max_length=400)
-    PlanCours = models.CharField(max_length=400)
-    Format = models.CharField(max_length=400)
-    Ressource = models.CharField(max_length=400)
-    Evaluation = models.CharField(max_length=400)
-
-class inst(models.Model):
-    inst = models.CharField(max_length=40)
     def __unicode__(self):
-        return u'%s' % (self.inst)
+        return u'%s|*:*|%s|*:*|%s|*:*|%s'%(self.NomProfesseur, self.PrenomProfesseur, self.Telephone, self.Email)
+
+class Appartenir(models.Model):
+   IdCours = models.ForeignKey(Cour,verbose_name='Cours')
+   IdProgramme = models.ForeignKey(Programme,verbose_name='Programme')
+   TypeCours = models.CharField(choices=[('OPT','Optionnel'),('OBL','Obligatoire')],max_length=20,verbose_name='Type du Cours')
+
+   def __unicode__(self):
+        return u'%s|*:*|%s|*:*|%s'%(self.IdCours, self.IdProgramme, self.TypeCours)
+
+
+
+class Dispenser(models.Model):
+    IdCours = models.ForeignKey(Cour)
+    IdProfesseur = models.ForeignKey(Professeur)
+    #CodeCours = ""
+    #IdentiteProfesseur = ""
+
+    def __unicode__(self):
+        # ChampsCours = self.IdCours.split("|*:*|")
+        # self.CodeCours = ChampsCours[0]+"-"+ChampsCours[1]+"-"+ChampsCours[2]
+        # ChampsProfesseur = self.IdProfesseur.split("|*:*|")
+        # self.IdentiteProfesseur = ChampsProfesseur[0]+" "+ChampsProfesseur[1]
+
+        return u'%s|*:*|%s'%(self.IdCours, self.IdProfesseur)
+
 
