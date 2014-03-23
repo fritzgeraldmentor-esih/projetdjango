@@ -26,13 +26,10 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
-#SITE_ID = 1
 
 # Application definition
 
 INSTALLED_APPS = (
-    #'grappelli_extensions',
-    'grappelli',
     'django.contrib.admin',
     'django.contrib.admindocs',
     'django.contrib.auth',
@@ -92,7 +89,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
-#ADMIN_MEDIA_PREFIX = STATIC_URL + "grappelli/"
 # Parse database configuration from $DATABASE_URL
 import dj_database_url
 DATABASES['default'] =  dj_database_url.config()
@@ -102,7 +98,6 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 # Allow all host headers
 ALLOWED_HOSTS = ['*']
-
 
 # Static asset configuration
 import os
@@ -124,18 +119,4 @@ TEMPLATE_DIRS = (
 #############       New Lines
 ###########################################################################
 
-#MEDIA_ROOT = "pythonfinal\pythonfinal\static\Mes_Fichiers"
-
-# STATICFILES_FINDERS = (
-#     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-#     'django.contrib.staticfiles.finders.FileSystemFinder',
-# )
-
-#TEMPLATE_CONTEXT_PROCESSORS = (
-    #"django.core.context_processors.request",
-#)
-
-GRAPPELLI_ADMIN_TITLE = "Plateforme d'Administration de Gestion de Cours..."
-#GRAPPELLI_EXTENSIONS_NAVBAR = 'extensions.Navbar'
-#GRAPPELLI_EXTENSIONS_NAVBAR = 'grappelli_extensions.test_navbar.Navbar'
-#GRAPPELLI_EXTENSIONS_SIDEBAR = 'grappelli_extensions.test_navbar.Sidebar'
+MEDIA_ROOT = "pythonfinal\pythonfinal\static\Mes_Fichiers"
