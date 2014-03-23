@@ -12,7 +12,7 @@
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\models.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\tests.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\views.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonfinal/settings.py" afterPath="$PROJECT_DIR$/pythonfinal/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonfinal/urls.py" afterPath="$PROJECT_DIR$/pythonfinal/urls.py" />
     </list>
     <ignored path="pythonfinal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,10 +59,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="5" selection-start="832" selection-end="832" vertical-scroll-proportion="0.030195381" vertical-offset="527" max-vertical-offset="2193">
+            <state line="32" column="5" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="2193">
               <folding />
             </state>
           </provider>
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pythonfinal/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="10" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+            <state line="16" column="1" selection-start="476" selection-end="476" vertical-scroll-proportion="0.4831261" vertical-offset="0" max-vertical-offset="563">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -125,12 +125,12 @@
         <option value="$PROJECT_DIR$/administration/models.py" />
         <option value="$PROJECT_DIR$/win/admin.py" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/pythonfinal/urls.py" />
         <option value="$PROJECT_DIR$/grappelli/urls.py" />
         <option value="$PROJECT_DIR$/pythonfinal/wsgi.py" />
         <option value="$PROJECT_DIR$/esih_admin/admin.py" />
         <option value="$PROJECT_DIR$/esih_admin/models.py" />
         <option value="$PROJECT_DIR$/pythonfinal/settings.py" />
+        <option value="$PROJECT_DIR$/pythonfinal/urls.py" />
       </list>
     </option>
   </component>
@@ -619,15 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pythonfinal/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="10" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="25" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
@@ -650,8 +641,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="832" selection-end="832" vertical-scroll-proportion="0.030195381" vertical-offset="527" max-vertical-offset="2193">
+        <state line="32" column="5" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="2193">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pythonfinal/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="1" selection-start="476" selection-end="476" vertical-scroll-proportion="0.4831261" vertical-offset="0" max-vertical-offset="563">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
