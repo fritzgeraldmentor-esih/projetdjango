@@ -12,9 +12,7 @@
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\models.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\tests.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\views.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esih_admin/admin.py" afterPath="$PROJECT_DIR$/esih_admin/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esih_admin/models.py" afterPath="$PROJECT_DIR$/esih_admin/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonfinal/wsgi.py" afterPath="$PROJECT_DIR$/pythonfinal/wsgi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonfinal/settings.py" afterPath="$PROJECT_DIR$/pythonfinal/settings.py" />
     </list>
     <ignored path="pythonfinal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,7 +62,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="0" selection-start="2337" selection-end="2337" vertical-scroll-proportion="0.06394316" vertical-offset="1562" max-vertical-offset="2193">
+            <state line="32" column="5" selection-start="832" selection-end="832" vertical-scroll-proportion="0.030195381" vertical-offset="527" max-vertical-offset="2193">
               <folding />
             </state>
           </provider>
@@ -652,7 +650,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="0" selection-start="2337" selection-end="2337" vertical-scroll-proportion="0.06394316" vertical-offset="1562" max-vertical-offset="2193">
+        <state line="32" column="5" selection-start="832" selection-end="832" vertical-scroll-proportion="0.030195381" vertical-offset="527" max-vertical-offset="2193">
           <folding />
         </state>
       </provider>

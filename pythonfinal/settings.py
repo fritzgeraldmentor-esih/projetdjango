@@ -30,7 +30,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = (
-    'grappelli',
+    #'grappelli',
     'django.contrib.admin',
     'django.contrib.admindocs',
     'django.contrib.auth',
@@ -121,4 +121,4 @@ TEMPLATE_DIRS = (
 ###########################################################################
 
 MEDIA_ROOT = "pythonfinal\pythonfinal\static\Mes_Fichiers"
-GRAPPELLI_ADMIN_TITLE='Plateforme de Gestion de Cours (ESIH)'
+#GRAPPELLI_ADMIN_TITLE='Plateforme de Gestion de Cours (ESIH)'
