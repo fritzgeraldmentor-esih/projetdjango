@@ -12,6 +12,8 @@
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\models.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\tests.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\views.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esih_admin/models.py" afterPath="$PROJECT_DIR$/esih_admin/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonfinal/settings.py" afterPath="$PROJECT_DIR$/pythonfinal/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonfinal/urls.py" afterPath="$PROJECT_DIR$/pythonfinal/urls.py" />
     </list>
     <ignored path="pythonfinal.iws" />
@@ -38,11 +40,8 @@
       <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="25" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-              <folding>
-                <marker date="1395610246521" expanded="true" signature="153:701" placeholder="..." />
-                <marker date="1395610246521" expanded="true" signature="585:701" placeholder="..." />
-              </folding>
+            <state line="14" column="25" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="986">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,11 +49,8 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/esih_admin/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="53" selection-start="2514" selection-end="2514" vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="1258">
-              <folding>
-                <marker date="1395610561584" expanded="true" signature="107:1353" placeholder="..." />
-                <marker date="1395610561584" expanded="true" signature="1054:1353" placeholder="..." />
-              </folding>
+            <state line="20" column="0" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1258">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,7 +58,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="5" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="2193">
+            <state line="124" column="0" selection-start="3132" selection-end="3132" vertical-scroll-proportion="0.0" vertical-offset="577" max-vertical-offset="2210">
               <folding />
             </state>
           </provider>
@@ -89,7 +85,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pythonfinal/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="1" selection-start="476" selection-end="476" vertical-scroll-proportion="0.4831261" vertical-offset="0" max-vertical-offset="563">
+            <state line="10" column="4" selection-start="257" selection-end="257" vertical-scroll-proportion="0.30195382" vertical-offset="0" max-vertical-offset="563">
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -128,8 +124,8 @@
         <option value="$PROJECT_DIR$/grappelli/urls.py" />
         <option value="$PROJECT_DIR$/pythonfinal/wsgi.py" />
         <option value="$PROJECT_DIR$/esih_admin/admin.py" />
-        <option value="$PROJECT_DIR$/esih_admin/models.py" />
         <option value="$PROJECT_DIR$/pythonfinal/settings.py" />
+        <option value="$PROJECT_DIR$/esih_admin/models.py" />
         <option value="$PROJECT_DIR$/pythonfinal/urls.py" />
       </list>
     </option>
@@ -509,25 +505,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47826087" sideWeight="0.6706282" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -562,20 +539,14 @@
     <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding>
-            <marker date="1395610246521" expanded="true" signature="153:701" placeholder="..." />
-            <marker date="1395610246521" expanded="true" signature="585:701" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding>
-            <marker date="1395610246521" expanded="true" signature="153:701" placeholder="..." />
-            <marker date="1395610246521" expanded="true" signature="585:701" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -619,36 +590,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="25" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
-          <folding>
-            <marker date="1395610246521" expanded="true" signature="153:701" placeholder="..." />
-            <marker date="1395610246521" expanded="true" signature="585:701" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/esih_admin/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="53" selection-start="2514" selection-end="2514" vertical-scroll-proportion="0.0" vertical-offset="263" max-vertical-offset="1258">
-          <folding>
-            <marker date="1395610561584" expanded="true" signature="107:1353" placeholder="..." />
-            <marker date="1395610561584" expanded="true" signature="1054:1353" placeholder="..." />
-          </folding>
+        <state line="20" column="0" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1258">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="5" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="2193">
+        <state line="124" column="0" selection-start="3132" selection-end="3132" vertical-scroll-proportion="0.0" vertical-offset="577" max-vertical-offset="2210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/esih_admin/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="25" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonfinal/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="1" selection-start="476" selection-end="476" vertical-scroll-proportion="0.4831261" vertical-offset="0" max-vertical-offset="563">
+        <state line="10" column="4" selection-start="257" selection-end="257" vertical-scroll-proportion="0.30195382" vertical-offset="0" max-vertical-offset="563">
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>

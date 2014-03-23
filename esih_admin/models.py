@@ -16,7 +16,7 @@ class Cour(models.Model):
 
     def __unicode__(self):
         #return u'%s (%s credits)'%(self.NomCours, self.CreditsECTS)
-        return u'%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s'%( self.Semestre,self.Grade,self.NomCours, self.CreditsECTS, self.Langues, self.LieuEnseignement,  self.PublicCible, self.Objectif, self.DescriptifCours)
+        return u'%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s'%(self.NomCours, self.CreditsECTS,self.LieuEnseignement,self.Semestre,self.Grade,self.Langues,self.PublicCible,self.Objectif,self.DescriptifCours)
 
 
 class Programme(models.Model):
