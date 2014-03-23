@@ -12,6 +12,7 @@
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\models.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\tests.py" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\acer\pythonfinal\win\views.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pythonfinal/settings.py" afterPath="$PROJECT_DIR$/pythonfinal/settings.py" />
     </list>
     <ignored path="pythonfinal.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,7 +56,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="46" selection-start="2351" selection-end="2351" vertical-scroll-proportion="0.51829267" vertical-offset="1428" max-vertical-offset="2482">
+            <state line="108" column="53" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.75488454" vertical-offset="1411" max-vertical-offset="2482">
               <folding />
             </state>
           </provider>
@@ -120,8 +121,8 @@
         <option value="$PROJECT_DIR$/pythonfinal/urls.py" />
         <option value="$PROJECT_DIR$/esih_admin/models.py" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/pythonfinal/settings.py" />
         <option value="$PROJECT_DIR$/pythonfinal/wsgi.py" />
+        <option value="$PROJECT_DIR$/pythonfinal/settings.py" />
       </list>
     </option>
   </component>
@@ -462,7 +463,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293718" sideWeight="0.4996277" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32088286" sideWeight="0.4996277" order="10" side_tool="false" content_ui="tabs" />
@@ -471,7 +472,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14743112" sideWeight="0.60101867" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39898133" sideWeight="0.4996277" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39898133" sideWeight="0.5003723" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39898133" sideWeight="0.5003723" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -621,7 +622,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pythonfinal/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="46" selection-start="2351" selection-end="2351" vertical-scroll-proportion="0.51829267" vertical-offset="1428" max-vertical-offset="2482">
+        <state line="108" column="53" selection-start="2744" selection-end="2744" vertical-scroll-proportion="0.75488454" vertical-offset="1411" max-vertical-offset="2482">
           <folding />
         </state>
       </provider>
