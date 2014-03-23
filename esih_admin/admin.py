@@ -4,11 +4,15 @@ from esih_admin.models import *
 
 # Register your models here.
 class CourAdmin(admin.ModelAdmin):
-    list_display=('NomCours', 'CreditsECTS', 'Langues', 'LieuEnseignement', 'Grade', 'Semestre', 'PublicCible', 'Objectif', 'DescriptifCours')
-    list_filter = ('NomCours','CreditsECTS','LieuEnseignement','Langues','Grade', 'Semestre',)
-    #date_hierarchy = 'date'
+    list_display=('NomCours','code_cours','CreditsECTS', 'Langues', 'LieuEnseignement', 'Grade', 'Semestre', 'PublicCible', 'Objectif', 'DescriptifCours')
+    list_filter = ('CreditsECTS','LieuEnseignement','Langues','Grade', 'Semestre',)
+    list_display_links = ('NomCours','DescriptifCours','code_cours',)
     ordering = ('NomCours', )
-    search_fields = ('CreditsECTS', 'LieuEnseignement')
+    search_fields = ('NomCours','PublicCible', 'Objectif',)
+
+    def code_cours(self,cours):
+        ch = str(cours.Grade)+str(cours.Semestre)+'-'+str(cours.NomCours)
+        return ch.title().replace(' ','')
 
 class ProgrammeAdmin(admin.ModelAdmin):
     list_display=('NomProgramme', 'Domaine', 'Mention', 'Specialite')

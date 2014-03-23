@@ -35,7 +35,7 @@ class Professeur(models.Model):
     PrenomProfesseur = models.CharField(max_length=50,verbose_name='Prenom du Professeur')
     Telephone = models.CharField(max_length=12)
     Email = models.EmailField(verbose_name='e-mail')
-    CV = models.CharField(max_length=100)
+    CV = models.FileField(upload_to='CV_Professeurs')
 
     def __unicode__(self):
         return u'%s %s'%(self.NomProfesseur, self.PrenomProfesseur)
