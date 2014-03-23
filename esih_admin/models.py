@@ -15,8 +15,8 @@ class Cour(models.Model):
     DescriptifCours = models.CharField(max_length=100,verbose_name='Description du Cours')
 
     def __unicode__(self):
-        return u'%s (%s credits)'%(self.NomCours, self.CreditsECTS)
-        #return u'%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s'%( self.Semestre,self.Grade,self.NomCours, self.CreditsECTS, self.Langues, self.LieuEnseignement,  self.PublicCible, self.Objectif, self.DescriptifCours)
+        #return u'%s (%s credits)'%(self.NomCours, self.CreditsECTS)
+        return u'%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s'%( self.Semestre,self.Grade,self.NomCours, self.CreditsECTS, self.Langues, self.LieuEnseignement,  self.PublicCible, self.Objectif, self.DescriptifCours)
 
 
 class Programme(models.Model):
