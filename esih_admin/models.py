@@ -14,9 +14,9 @@ class Cour(models.Model):
     Objectif = models.CharField(max_length=250,verbose_name='Objecctif du Cours')
     DescriptifCours = models.CharField(max_length=100,verbose_name='Description du Cours')
 
-    def __unicode__(self):
+    #def __unicode__(self):
         #return u'%s (%s credits)'%(self.NomCours, self.CreditsECTS)
-        return u'%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s'%(self.NomCours, self.CreditsECTS,self.LieuEnseignement,self.Semestre,self.Grade,self.Langues,self.PublicCible,self.Objectif,self.DescriptifCours)
+    #    return u'%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s|*:*|%s'%(self.NomCours, self.CreditsECTS,self.LieuEnseignement,self.Semestre,self.Grade,self.Langues,self.PublicCible,self.Objectif,self.DescriptifCours)
 
 
 class Programme(models.Model):
@@ -25,8 +25,8 @@ class Programme(models.Model):
     Mention = models.CharField(choices=[('E&G','Economie et Gestion'),('S&I','Sciences Informatiques')],max_length=30)
     Specialite = models.CharField(choices=[('TEL','Telecommunication'),('BDD','Base de Donnee'),('MONE','Management des Organisation de la Net Economie'),('SdE',"Sciences de l'Entreprise"),('SC','Sciences Comptables')],max_length=30,verbose_name='Specialité')
 
-    def __unicode__(self):
-        return u'%s'%(self.NomProgramme)
+    #def __unicode__(self):
+    #    return u'%s'%(self.NomProgramme)
         #return u'%s|*:*|%s|*:*|%s|*:*|%s'%(self.NomProgramme, self.Domaine, self.Mention, self.Specialite)
 
 

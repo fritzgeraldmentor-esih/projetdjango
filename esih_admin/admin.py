@@ -16,30 +16,35 @@ class CourAdmin(admin.ModelAdmin):
 
 class ProgrammeAdmin(admin.ModelAdmin):
     list_display=('NomProgramme', 'Domaine', 'Mention', 'Specialite')
+    list_filter = ('Domaine', 'Mention', 'Specialite',)
+    list_display_links = ('NomProgramme',)
+    ordering = ('NomProgramme', )
+    search_fields = ('NomProgramme', 'Domaine', 'Mention', 'Specialite',)
 
 class ProfesseurAdmin(admin.ModelAdmin):
-    list_display=('NomProfesseur','PrenomProfesseur','Telephone','Email')
+    list_display=('NomProfesseur','PrenomProfesseur','Telephone','Email','CV')
+    list_display_links = ('NomProfesseur','PrenomProfesseur','CV')
+    ordering = ('NomProfesseur','PrenomProfesseur',)
+    search_fields = ('NomProfesseur','PrenomProfesseur',)
 
 class AppartenirAdmin(admin.ModelAdmin):
-    list_display=('IdCours', 'IdProgramme', 'TypeCours','apercu_contenu')
+    list_display=('code_Attachement','nom_du_Cours', 'code_du_Cours', 'nom_du_Programme', 'TypeCours',)
+    list_display_links = ('code_Attachement',)
+    list_filter = ( 'IdProgramme', 'TypeCours',)
+    #ordering = ('nom_du_Cours',)
+    search_fields = ('code_Attachement','nom_du_Cours',)
 
-    def apercu_contenu(self, appartenir):
-        """
-        Retourne les 40 premiers caractères du contenu de l'article. S'il
-        y a plus de 40 caractères, il faut ajouter des points de
-        suspension.
-        """
-        #pass
-        b = str(appartenir.IdCours)
-        a = b.split('|*:*|')
-        return a[0]+' '+a[2]
-        #text = article.IdCours[0:4]
-        #if len(article.IdCours) > 4:
-        #    return '%s...' % text
-        #else:
-        #    return text
-        # En-tête de notre colonne
-        #apercu_contenu.short_description = u'Aperçu du contenu'
+    def code_Attachement(self,code):
+        return code.IdProgramme.Domaine+'-'+code.IdProgramme.Mention+'-'+code.IdProgramme.Specialite+'-'+code.TypeCours+'-'+code.IdCours.Langues
+
+    def nom_du_Cours(self,cours):
+        return cours.IdCours.NomCours
+
+    def code_du_Cours(self,cours):
+        return cours.IdCours.Grade+cours.IdCours.Semestre+'-'+cours.IdCours.NomCours
+
+    def nom_du_Programme(self,prog):
+        return prog.IdProgramme.NomProgramme
 
 class DispenserAdmin(admin.ModelAdmin):
     list_display=('IdCours','IdProfesseur')
